@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const API_BASE = "https://ai-health-assistant-1-35s1.onrender.com/";
+const API_BASE = "https://ai-health-assistant-1-35s1.onrender.com";
 
 function QueryCard({ entry, onDelete }) {
   const [expanded, setExpanded] = useState(false);
