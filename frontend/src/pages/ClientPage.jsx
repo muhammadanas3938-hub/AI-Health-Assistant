@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const API_BASE = "https://ai-health-assistant-1-35s1.onrender.com/";
+const API_BASE = "https://ai-health-assistant-1-35s1.onrender.com";
 
 export default function ClientPage() {
   const [queries, setQueries] = useState([]);
