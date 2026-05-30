@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const API_BASE = "https://ai-health-assistant-1-35s1.onrender.com/";
+const API_BASE = "https://ai-health-assistant-1-35s1.onrender.com";
 
 export default function UserPage() {
   const [symptoms, setSymptoms] = useState("");
